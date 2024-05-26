@@ -47,6 +47,13 @@ fun DiceRollerApp(modifier: Modifier = Modifier) {
 
 @Composable
 fun DiceWithButtonAndImage(modifier: Modifier = Modifier) {
+    Column(
+        modifier.fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
+    ) {
+        Image(painter = painterResource(id = R.drawable.dice_1), contentDescription = "1")
+    }
 }
 
 @Preview(showBackground = true)
