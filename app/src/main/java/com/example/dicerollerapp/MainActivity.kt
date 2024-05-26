@@ -53,6 +53,9 @@ fun DiceWithButtonAndImage(modifier: Modifier = Modifier) {
         verticalArrangement = Arrangement.Center
     ) {
         Image(painter = painterResource(id = R.drawable.dice_1), contentDescription = "1")
+        Button(onClick = { /*TODO*/ }) {
+            Text(text = stringResource(id = R.string.roll))
+        }
     }
 }
 
